@@ -25,6 +25,8 @@ function getmin(accumulator,element){
 }
 console.log(max)
 console.log(min)
+
+
 //random workout
 const num = [1,2,3,4,5]
 let  num1 = num.reduce(all,0)
@@ -35,3 +37,11 @@ function all(accumulator,element){
 
 }
 console.log(num1)
+
+const num2 = [10,20,30,40,50]
+let num3 = num2.reduce(all,0)
+function  sum(accumulator,element){
+    return accumulator + element;
+}
+console.log(num3)
+
